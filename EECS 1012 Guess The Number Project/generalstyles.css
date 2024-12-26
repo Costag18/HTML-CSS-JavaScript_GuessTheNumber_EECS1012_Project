@@ -1,0 +1,10 @@
+body {
+    border: 100px solid transparent;
+    border-image: url(bamboo.png) 33%;
+    border-image-repeat: repeat;
+}
+
+#gameForm {
+    text-align: center;
+}
+

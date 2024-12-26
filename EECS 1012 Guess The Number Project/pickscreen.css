@@ -1,0 +1,41 @@
+body {
+    padding: 2%;
+} 
+
+#game {
+    padding-top: 10%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#winLoseGif {
+    display: block;
+    margin: 0 auto;
+}
+
+#output {
+    text-align: center;
+    font-size: large;
+    font-family:cursive;
+}
+
+#resultImage{
+    padding-top: 2%;
+}
+
+#attemptsCounter{
+    padding-top: 10%;
+}
+
+#correctNum{
+    text-align: center;
+    font-size: 20px;
+}
+
+#hint{
+    font-size: 40px;
+    color: blue;
+}

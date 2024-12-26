@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="generalstyles.css">
+    <link rel="stylesheet" href="pickscreen.css">
+    <script src="gamelogic.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="output"></div>
+    <div id="game">
+        <label for="guess">Enter your guess: </label>
+        <input type="text" id="guess" name="guess"><br><br>
+        <button id="submitGuess">Submit</button><br><br>
+        <div id="hint"></div>
+        <img id="resultImage" src=""><br>
+        <div id="attemptsCounter">Attempts remaining: <span id="attemptsValue"></span></div>
+    </div>
+    <div id="correctNum" style="display: none;"></div>
+    <img id="winLoseGif" src=""><br>
+    <div id="hiscore"></div>
+    <div id="buttons" style="display: none;">
+        <button id="goBack">Back To Leaderboard</button>
+        <button id="playAgain" onclick="playAgain()">Play Again?</button>
+    </div>
+</body>
+</html>

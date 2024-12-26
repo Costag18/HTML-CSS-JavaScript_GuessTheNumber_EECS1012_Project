@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="leaderboard.css">
+    <link rel="stylesheet" href="generalstyles.css">
+    <script src="gamelogic.js"></script>
+    <script src="leaderboardLoading.js"></script>
+    <title>Guess the Number!</title>
+</head>
+<body>
+    <a href="instructions.html"><button type="button">Instructions</button></a>
+    <div>
+
+    <h1>Guess the Number!</h1>
+    <p>Select your profile</p>
+    <div id="container">
+    <table id="labels">
+        <tr>
+            <th id="column1">Profile</th>
+            <th id="column2">High score</th>
+        </tr>
+    </table>
+    <table id="leaderboard"></table>
+    </div>
+    <br>
+
+    <div id="newProfile">
+        <input type="text" id="nameInput">
+        <button type="button" id="addProfileButton">Add Profile</button>
+    </div>
+</body>
+</html>
